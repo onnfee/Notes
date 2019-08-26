@@ -46,6 +46,10 @@
     - 状态标记量
     - 双重检查
 - 线程池
+  - CachedTreadPool
+  - FixedTreadPool
+  - ScheduledTreadPool
+  - SingleTre
   - 核心线程池
   - 阻塞队列
   - 饱和策略
@@ -104,6 +108,9 @@
 # 算法
 - 二分查找
 - 快排
+- 动态规划
+  - 无后效性
+  - 最优子结构
 # 网络知识
 - TCP/IP四层模型
   - 物理链路层(物理层、链路层)
@@ -134,9 +141,15 @@
     - 主从复制
     - 哨兵
     - cluster
+    - codis
   - 分布式锁
   - 分布式缓存
 # 其他
 - 锁
   - 乐观锁
   - 悲观锁
+- 什么是一致性哈希
+
+> 简单来说，一致性Hash算法将整个哈希值空间组织成一个虚拟的圆环
+>
+> <https://www.cnblogs.com/study-everyday/p/8629100.html>
