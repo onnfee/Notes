@@ -15,3 +15,15 @@ drop：我要丢弃该commit（缩写:d）
 
 - git push origin local_branch:remote_branch
 > 当没有远程分支时，该指令会自动创建一个远程分支。如果local_branch为空，则该指令会删除远程分支remote_branch。
+
+
+- git reabse  \<branch\>
+> 合并分支
+```
+解决冲突：
+使用git add <file-name>来标记冲突已解决，然后执行git rebase --continue继续。
+如果中间遇到某个补丁不需要应用，可以用下面命令忽略：
+git rebase --skip
+如果想回到rebase执行之前的状态，可以执行：
+git rebase --abort
+```
