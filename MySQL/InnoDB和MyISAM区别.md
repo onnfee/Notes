@@ -1,0 +1,4 @@
+- InnoDB支持行级锁，表级锁，而MyISAM支持表级锁
+- InnoDB表必须有主键，而MyISAM可以没有
+- InnoDB支持事务，而MyISAM不支持，对于InnoDB来说，每一条SQL语言都默认封装成事务，自动提交
+- InnoDB支持外键，而MyISAM不支持

@@ -1,0 +1,6 @@
+- finally无return
+  - 如果try中有return或catch中有return
+    - 如果返回值是基本数据类型或者字符串，finally中的操作不会影响返回值
+    - 如果返回值是对象，finally中对该对象的操作会影响返回值
+- finally有return
+  - 会执行finally的return，返回结果
